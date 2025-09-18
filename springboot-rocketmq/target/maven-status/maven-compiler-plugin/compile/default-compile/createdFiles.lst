@@ -1,0 +1,8 @@
+com\service\PushConsumerExample.class
+com\service\MessageProduce.class
+com\service\MyConsumer.class
+com\service\ProducerExample.class
+com\config\ExtRocketMQTemplate.class
+com\RocketApp.class
+com\controller\MessageProduceController.class
+com\dto\Person.class

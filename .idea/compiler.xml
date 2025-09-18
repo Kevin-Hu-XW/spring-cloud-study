@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-disruptor" />
+        <module name="springboot-nacos" />
+        <module name="springboot-wechat" />
+        <module name="spring-sentinel" />
+        <module name="storage-seata" />
+        <module name="springboot-socket" />
+        <module name="storage_seata" />
+        <module name="common-base" />
+        <module name="spring-netty" />
+        <module name="springboot-gateway" />
+        <module name="springboot-hello" />
+        <module name="account_seata" />
+        <module name="account-seata" />
+        <module name="springboot-websocket" />
+        <module name="springsecurity-oauth2" />
+        <module name="spring-security" />
+        <module name="order-seata" />
+        <module name="springboot-mybatis" />
+        <module name="oauth2-demo" />
+        <module name="springboot-rocketmq" />
+        <module name="springboot-resilience4j" />
+        <module name="transaction" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account_seata" target="1.8" />
+      <module name="HelloSpring" target="1.8" />
+      <module name="springboot-log" target="8" />
+      <module name="storage_seata" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HelloSpring" options="-parameters" />
+      <module name="account-seata" options="-parameters" />
+      <module name="account_seata" options="-parameters" />
+      <module name="common-base" options="-parameters" />
+      <module name="oauth2-demo" options="-parameters" />
+      <module name="order-seata" options="-parameters" />
+      <module name="seata" options="" />
+      <module name="spring-disruptor" options="-parameters" />
+      <module name="spring-netty" options="-parameters" />
+      <module name="spring-security" options="-parameters" />
+      <module name="spring-sentinel" options="-parameters" />
+      <module name="spring-study" options="" />
+      <module name="springboot-gateway" options="-parameters" />
+      <module name="springboot-hello" options="-parameters" />
+      <module name="springboot-log" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-nacos" options="-parameters" />
+      <module name="springboot-resilience4j" options="-parameters" />
+      <module name="springboot-rocketmq" options="-parameters" />
+      <module name="springboot-socket" options="-parameters" />
+      <module name="springboot-websocket" options="-parameters" />
+      <module name="springboot-wechat" options="-parameters" />
+      <module name="springsecurity-oauth2" options="-parameters" />
+      <module name="storage-seata" options="-parameters" />
+      <module name="storage_seata" options="-parameters" />
+      <module name="transaction" options="-parameters" />
+    </option>
+  </component>
+</project>

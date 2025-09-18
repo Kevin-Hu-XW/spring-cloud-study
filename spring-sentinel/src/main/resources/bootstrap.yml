@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: springboot-sentinel
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: test
+        group: kevin
+      discovery:
+        server-addr: localhost:8848
+        namespace: test
+        group: kevin
+    sentinel:
+      transport:
+        dashboard: localhost:9090
+        port: 8719
+  profiles:
+    active: test
+  main:
+    allow-circular-references: true
+
+management :
+    endpoints:
+      web:
+        exposure:
+          include: "*"

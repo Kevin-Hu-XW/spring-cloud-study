@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: springboot-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: test
+        group: kevin
+      discovery:
+        server-addr: localhost:8848
+        namespace: test
+        group: kevin
+  profiles:
+    active: test
+  main:
+    allow-circular-references: true

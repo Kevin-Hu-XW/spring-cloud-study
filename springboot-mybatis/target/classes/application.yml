@@ -1,0 +1,25 @@
+server:
+  port: 8888
+
+#spring:
+#  application:
+#    ##服务名称
+#    name: springboot-mybatis
+#  cloud:
+#    nacos:
+#      discovery:
+#        ##服务的注册地址
+#        server-addr: 101.35.56.116:8848
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/saas?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+###指定读取logback配置文件
+logging:
+  #config: log/logback.xml 会直接从项目目录下找log目录读取logback.xml文件
+  #config: classpath:log/logback.xml 会从resource下找log目录读取logback.xml文件
+  config: classpath:log/logback.xml
+mybatis:
+  mapperLocations: classpath:mapping/*.xml

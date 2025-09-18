@@ -1,0 +1,17 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/saas?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    password:
+wx:
+  appId: wx49bfb14429cf4b49
+  secret: 7212e348b126b214ebf4756a3b4b2b21
+  redirect_uri: http://localhost:8181/reg-user

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wx_login</title>
+    <script src="https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+</head>
+<body>
+
+<div>
+    <div id="weixin"></div>
+    <script>
+        var wx = new WxLogin({
+            id: 'weixin',
+            appid: "wx49bfb14429cf4b49",
+            scope: 'snsapi_login',
+            redirect_uri: window.decodeURI("http://localhost:8181/login")
+        })
+    </script>
+</div>
+</body>
+
+</html>

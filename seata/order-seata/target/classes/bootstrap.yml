@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: order-seata
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: test
+        group: kevin
+      discovery:
+        server-addr: localhost:8848
+        namespace: test
+        group: kevin
+  profiles:
+    active: test
+  main:
+    allow-circular-references: true
+
+seata:
+  enabled: true
+  application-id: order-seata   # 与 TC 通信的标识
+  tx-service-group: default_tx_group     # 全局事务分组名
+  service:
+    vgroup-mapping:
+      default_tx_group: default          # 分组映射到 seata-server 里的 cluster 名称
+    grouplist:
+      default: 127.0.0.1:8091                  # seata-server 地址
+  client:
+    undo:
+      log-table: undo_log
+registry:
+  type: nacos
+  nacos:
+    server-addr: 127.0.0.1:8848
+    namespace: public
+    cluster: default
+
+config:
+  type: nacos
+  nacos:
+    server-addr: 127.0.0.1:8848
+    namespace: public

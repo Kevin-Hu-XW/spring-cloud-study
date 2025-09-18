@@ -1,0 +1,18 @@
+spring:
+  application:
+    ##服务名称
+    name: transaction
+  datasource:
+    url: jdbc:mysql://localhost:3306/saas?useSSL=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+###指定读取logback配置文件
+##logging:
+  #config: log/logback.xml 会直接从项目目录下找log目录读取logback.xml文件
+  #config: classpath:log/logback.xml 会从resource下找log目录读取logback.xml文件
+  ##config: classpath:log/logback.xml
+mybatis:
+  mapperLocations: classpath:mapping/*.xml
+server:
+  port: 8888

@@ -1,0 +1,55 @@
+server:
+  port: 8181
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  cloud:
+    gateway:
+      routes:
+        - id: test-service
+          # uri: lb://product-service # 如果使用 Eureka，使用 lb://service-id
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/hello/**
+          filters:
+            - name: CircuitBreaker  # 熔断过滤器
+              args:
+                name: testCircuitBreaker  # 使用下面配置的熔断器实例
+                fallbackUri: forward:/fallback
+            - name: RequestRateLimiter  # 限流过滤器，通过 RequestRateLimiter 实现，利用 Redis 配置令牌桶算法；#使用下面配置的限流器实例
+              args:
+                redis-rate-limiter.replenishRate: 20   # 每秒恢复 2 个令牌
+                redis-rate-limiter.burstCapacity: 50   # 最大令牌数
+                key-resolver: "#{@ipKeyResolver}"     # 限流维度：IP
+resilience4j:
+  timelimiter:
+    instances:
+      testCircuitBreaker:
+        timeoutDuration: 2s
+        cancelRunningFuture: true
+  circuitbreaker:
+    instances:
+      testCircuitBreaker:
+        registerHealthIndicator: true
+        slidingWindowSize: 5
+        minimumNumberOfCalls: 5
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5s
+        permittedNumberOfCallsInHalfOpenState: 2
+        recordExceptions:
+          - java.lang.Exception
+        ignoreExceptions:
+          - java.lang.IllegalArgumentException
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    org.springframework.cloud.gateway.filter.ratelimit: DEBUG

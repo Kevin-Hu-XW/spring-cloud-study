@@ -1,0 +1,25 @@
+#server:
+#  servlet:
+#    session:
+#      timeout: 60s
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23likH66HmKrQ7Ep2r
+            client-secret: 24ba1e6ff47080968f2f1ef24803cf8ef9d6d35a
+  datasource:
+    url: jdbc:mysql://localhost:3306/security-demo?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+jwt:
+  secret: qazwxeddcvrfbtgtb
+  expire: 3600
+  header: Authorization
+

@@ -1,0 +1,260 @@
+2023-07-03 16:11:03,392 INFO (StartupInfoLogger.java:55)- Starting MybatisWebApp using Java 1.8.0_271 on DESKTOP-R8L57D2 with PID 14032 (F:\java-web\springboot-mybatis\target\classes started by Admin in F:\java-web)
+2023-07-03 16:11:03,397 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2023-07-03 16:11:04,091 INFO (GenericScope.java:283)- BeanFactory id=c4ac7494-339c-311b-9b7c-a6601c5a07f0
+2023-07-03 16:11:04,329 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8090 (http)
+2023-07-03 16:11:04,338 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8090"]
+2023-07-03 16:11:04,339 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-07-03 16:11:04,340 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-07-03 16:11:04,468 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-07-03 16:11:04,469 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 1033 ms
+2023-07-03 16:11:05,564 INFO (RpcClientFactory.java:80)- [RpcClientFactory] create a new rpc client of d5f22aab-61b7-4f78-985a-05f4d3df5e6c
+2023-07-03 16:11:05,613 INFO (Reflections.java:232)- Reflections took 34 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-07-03 16:11:05,639 INFO (Reflections.java:232)- Reflections took 15 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-07-03 16:11:05,654 INFO (Reflections.java:232)- Reflections took 13 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-07-03 16:11:05,749 INFO (Reflections.java:232)- Reflections took 92 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:11:05,759 INFO (Reflections.java:232)- Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-07-03 16:11:05,772 INFO (Reflections.java:232)- Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-07-03 16:11:05,788 INFO (Reflections.java:232)- Reflections took 13 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-07-03 16:11:05,876 INFO (Reflections.java:232)- Reflections took 86 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:11:05,877 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] RpcClient init label, labels = {module=naming, source=sdk}
+2023-07-03 16:11:05,878 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-03 16:11:05,879 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-03 16:11:05,880 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-03 16:11:05,882 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Try to connect to server on start up, server: {serverIp = '101.35.56.116', server main port = 8848}
+2023-07-03 16:11:07,058 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Success to connect to server [101.35.56.116:8848] on start up, connectionId = 1688371865786_139.226.59.80_7978
+2023-07-03 16:11:07,059 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Notify connected event to listeners.
+2023-07-03 16:11:07,059 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-03 16:11:07,060 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$656/57488372
+2023-07-03 16:11:07,127 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8090"]
+2023-07-03 16:11:07,129 WARN (AbstractApplicationContext.java:591)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8090 is already in use
+2023-07-03 16:11:07,638 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Receive server push request, request = NotifySubscriberRequest, requestId = 76
+2023-07-03 16:11:07,641 INFO (LoggerUtils.java:60)- [d5f22aab-61b7-4f78-985a-05f4d3df5e6c] Ack server push request, request = NotifySubscriberRequest, requestId = 76
+2023-07-03 16:11:07,795 INFO (RpcClient.java:454)- Shutdown rpc client, set status to shutdown
+2023-07-03 16:11:07,796 INFO (RpcClient.java:456)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@78ec89a6[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-03 16:11:07,796 INFO (RpcClient.java:591)- Close current connection 1688371865786_139.226.59.80_7978
+2023-07-03 16:11:07,801 INFO (GrpcClient.java:85)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@22ad1bae[Running, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 7]
+2023-07-03 16:11:07,806 INFO (RpcClientFactory.java:80)- [RpcClientFactory] create a new rpc client of a64cb323-7cae-49fc-abcd-6edf62d88c8e
+2023-07-03 16:11:07,807 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] RpcClient init label, labels = {module=naming, source=sdk}
+2023-07-03 16:11:07,807 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-03 16:11:07,807 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-03 16:11:07,807 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-03 16:11:07,808 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] Try to connect to server on start up, server: {serverIp = '101.35.56.116', server main port = 8848}
+2023-07-03 16:11:07,809 INFO (AbstractClientStream.java:391)- Received trailers on closed stream:
+ Metadata()
+ {2}
+2023-07-03 16:11:07,964 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] Success to connect to server [101.35.56.116:8848] on start up, connectionId = 1688371866769_139.226.59.80_7979
+2023-07-03 16:11:07,964 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-03 16:11:07,964 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] Notify connected event to listeners.
+2023-07-03 16:11:07,964 INFO (LoggerUtils.java:60)- [a64cb323-7cae-49fc-abcd-6edf62d88c8e] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$656/57488372
+2023-07-03 16:11:07,986 INFO (DirectJDKLog.java:173)- Pausing ProtocolHandler ["http-nio-8090"]
+2023-07-03 16:11:07,986 INFO (DirectJDKLog.java:173)- Stopping service [Tomcat]
+2023-07-03 16:11:07,989 INFO (DirectJDKLog.java:173)- Stopping ProtocolHandler ["http-nio-8090"]
+2023-07-03 16:11:07,989 INFO (DirectJDKLog.java:173)- Destroying ProtocolHandler ["http-nio-8090"]
+2023-07-03 16:11:07,996 INFO (ConditionEvaluationReportLoggingListener.java:136)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-03 16:11:08,009 ERROR (LoggingFailureAnalysisReporter.java:40)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2023-07-03 16:11:08,013 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-03 16:11:08,013 WARN (HttpClientBeanHolder.java:108)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-03 16:11:34,045 INFO (StartupInfoLogger.java:55)- Starting MybatisWebApp using Java 1.8.0_271 on DESKTOP-R8L57D2 with PID 24728 (F:\java-web\springboot-mybatis\target\classes started by Admin in F:\java-web)
+2023-07-03 16:11:34,048 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2023-07-03 16:11:34,729 INFO (GenericScope.java:283)- BeanFactory id=c4ac7494-339c-311b-9b7c-a6601c5a07f0
+2023-07-03 16:11:35,057 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8091 (http)
+2023-07-03 16:11:35,070 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:11:35,072 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-07-03 16:11:35,073 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-07-03 16:11:35,240 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-07-03 16:11:35,240 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 1156 ms
+2023-07-03 16:11:36,361 INFO (RpcClientFactory.java:80)- [RpcClientFactory] create a new rpc client of f54b94fa-dbb3-48da-ae9b-9d1626185056
+2023-07-03 16:11:36,406 INFO (Reflections.java:232)- Reflections took 29 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-07-03 16:11:36,432 INFO (Reflections.java:232)- Reflections took 15 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-07-03 16:11:36,445 INFO (Reflections.java:232)- Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-07-03 16:11:36,546 INFO (Reflections.java:232)- Reflections took 98 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:11:36,556 INFO (Reflections.java:232)- Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-07-03 16:11:36,570 INFO (Reflections.java:232)- Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-07-03 16:11:36,582 INFO (Reflections.java:232)- Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-07-03 16:11:36,666 INFO (Reflections.java:232)- Reflections took 82 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:11:36,667 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] RpcClient init label, labels = {module=naming, source=sdk}
+2023-07-03 16:11:36,668 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-03 16:11:36,668 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-03 16:11:36,670 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-03 16:11:36,673 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Try to connect to server on start up, server: {serverIp = '101.35.56.116', server main port = 8848}
+2023-07-03 16:11:37,857 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Success to connect to server [101.35.56.116:8848] on start up, connectionId = 1688371896584_139.226.59.80_8026
+2023-07-03 16:11:37,858 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Notify connected event to listeners.
+2023-07-03 16:11:37,858 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-03 16:11:37,859 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$656/650797503
+2023-07-03 16:11:37,915 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:11:37,917 WARN (AbstractApplicationContext.java:591)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8091 is already in use
+2023-07-03 16:11:38,465 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Receive server push request, request = NotifySubscriberRequest, requestId = 77
+2023-07-03 16:11:38,467 INFO (LoggerUtils.java:60)- [f54b94fa-dbb3-48da-ae9b-9d1626185056] Ack server push request, request = NotifySubscriberRequest, requestId = 77
+2023-07-03 16:11:38,572 INFO (RpcClient.java:454)- Shutdown rpc client, set status to shutdown
+2023-07-03 16:11:38,572 INFO (RpcClient.java:456)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@294aba23[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-03 16:11:38,572 INFO (RpcClient.java:591)- Close current connection 1688371896584_139.226.59.80_8026
+2023-07-03 16:11:38,576 INFO (GrpcClient.java:85)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@22bdb1d0[Running, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 7]
+2023-07-03 16:11:38,581 INFO (RpcClientFactory.java:80)- [RpcClientFactory] create a new rpc client of a2f43697-b1c2-493b-a6c0-03f0cb55fe57
+2023-07-03 16:11:38,582 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] RpcClient init label, labels = {module=naming, source=sdk}
+2023-07-03 16:11:38,582 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-03 16:11:38,582 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-03 16:11:38,582 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-03 16:11:38,583 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] Try to connect to server on start up, server: {serverIp = '101.35.56.116', server main port = 8848}
+2023-07-03 16:11:38,587 INFO (AbstractClientStream.java:391)- Received trailers on closed stream:
+ Metadata()
+ {2}
+2023-07-03 16:11:38,727 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] Success to connect to server [101.35.56.116:8848] on start up, connectionId = 1688371897525_139.226.59.80_8027
+2023-07-03 16:11:38,727 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-03 16:11:38,727 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] Notify connected event to listeners.
+2023-07-03 16:11:38,727 INFO (LoggerUtils.java:60)- [a2f43697-b1c2-493b-a6c0-03f0cb55fe57] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$656/650797503
+2023-07-03 16:11:38,742 INFO (DirectJDKLog.java:173)- Pausing ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:11:38,742 INFO (DirectJDKLog.java:173)- Stopping service [Tomcat]
+2023-07-03 16:11:38,746 INFO (DirectJDKLog.java:173)- Stopping ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:11:38,746 INFO (DirectJDKLog.java:173)- Destroying ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:11:38,754 INFO (ConditionEvaluationReportLoggingListener.java:136)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-03 16:11:38,772 ERROR (LoggingFailureAnalysisReporter.java:40)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8091 or configure this application to listen on another port.
+
+2023-07-03 16:11:38,774 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-03 16:11:38,774 WARN (HttpClientBeanHolder.java:108)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-03 16:11:38,774 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-03 16:11:38,774 WARN (HttpClientBeanHolder.java:114)- [HttpClientBeanHolder] Destruction of the end
+2023-07-03 16:15:45,881 INFO (StartupInfoLogger.java:55)- Starting MybatisWebApp using Java 1.8.0_271 on DESKTOP-R8L57D2 with PID 23772 (F:\java-web\springboot-mybatis\target\classes started by Admin in F:\java-web)
+2023-07-03 16:15:45,884 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2023-07-03 16:15:46,635 INFO (GenericScope.java:283)- BeanFactory id=c4ac7494-339c-311b-9b7c-a6601c5a07f0
+2023-07-03 16:15:46,866 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8091 (http)
+2023-07-03 16:15:46,875 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:15:46,876 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-07-03 16:15:46,876 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-07-03 16:15:47,005 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-07-03 16:15:47,005 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 1083 ms
+2023-07-03 16:15:48,072 INFO (RpcClientFactory.java:80)- [RpcClientFactory] create a new rpc client of 05392cd2-e9ab-42b7-9434-10d25ee02340
+2023-07-03 16:15:48,113 INFO (Reflections.java:232)- Reflections took 29 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-07-03 16:15:48,137 INFO (Reflections.java:232)- Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-07-03 16:15:48,150 INFO (Reflections.java:232)- Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-07-03 16:15:48,251 INFO (Reflections.java:232)- Reflections took 98 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:15:48,260 INFO (Reflections.java:232)- Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-07-03 16:15:48,274 INFO (Reflections.java:232)- Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-07-03 16:15:48,288 INFO (Reflections.java:232)- Reflections took 12 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-07-03 16:15:48,375 INFO (Reflections.java:232)- Reflections took 85 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:15:48,376 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] RpcClient init label, labels = {module=naming, source=sdk}
+2023-07-03 16:15:48,378 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-03 16:15:48,378 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-03 16:15:48,378 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-03 16:15:48,380 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Try to connect to server on start up, server: {serverIp = '101.35.56.116', server main port = 8848}
+2023-07-03 16:15:49,511 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Success to connect to server [101.35.56.116:8848] on start up, connectionId = 1688372148256_139.226.59.80_1250
+2023-07-03 16:15:49,512 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Notify connected event to listeners.
+2023-07-03 16:15:49,512 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-03 16:15:49,513 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$656/1066856480
+2023-07-03 16:15:49,558 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:15:49,561 WARN (AbstractApplicationContext.java:591)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8091 is already in use
+2023-07-03 16:15:50,077 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Receive server push request, request = NotifySubscriberRequest, requestId = 78
+2023-07-03 16:15:50,079 INFO (LoggerUtils.java:60)- [05392cd2-e9ab-42b7-9434-10d25ee02340] Ack server push request, request = NotifySubscriberRequest, requestId = 78
+2023-07-03 16:15:50,215 INFO (RpcClient.java:454)- Shutdown rpc client, set status to shutdown
+2023-07-03 16:15:50,215 INFO (RpcClient.java:456)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@642a16aa[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-03 16:15:50,215 INFO (RpcClient.java:591)- Close current connection 1688372148256_139.226.59.80_1250
+2023-07-03 16:15:50,219 INFO (GrpcClient.java:85)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@f2a1813[Running, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 7]
+2023-07-03 16:15:50,226 INFO (RpcClientFactory.java:80)- [RpcClientFactory] create a new rpc client of ef086c56-6dbe-4901-bddc-725d0bf9fc79
+2023-07-03 16:15:50,226 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] RpcClient init label, labels = {module=naming, source=sdk}
+2023-07-03 16:15:50,227 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-03 16:15:50,227 INFO (AbstractClientStream.java:391)- Received trailers on closed stream:
+ Metadata()
+ {2}
+2023-07-03 16:15:50,227 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-03 16:15:50,227 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-03 16:15:50,228 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] Try to connect to server on start up, server: {serverIp = '101.35.56.116', server main port = 8848}
+2023-07-03 16:15:50,370 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] Success to connect to server [101.35.56.116:8848] on start up, connectionId = 1688372149175_139.226.59.80_1251
+2023-07-03 16:15:50,370 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] Notify connected event to listeners.
+2023-07-03 16:15:50,370 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-03 16:15:50,370 INFO (LoggerUtils.java:60)- [ef086c56-6dbe-4901-bddc-725d0bf9fc79] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$656/1066856480
+2023-07-03 16:15:50,391 INFO (DirectJDKLog.java:173)- Pausing ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:15:50,391 INFO (DirectJDKLog.java:173)- Stopping service [Tomcat]
+2023-07-03 16:15:50,395 INFO (DirectJDKLog.java:173)- Stopping ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:15:50,395 INFO (DirectJDKLog.java:173)- Destroying ProtocolHandler ["http-nio-8091"]
+2023-07-03 16:15:50,403 INFO (ConditionEvaluationReportLoggingListener.java:136)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-03 16:15:50,417 ERROR (LoggingFailureAnalysisReporter.java:40)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8091 or configure this application to listen on another port.
+
+2023-07-03 16:15:50,420 WARN (HttpClientBeanHolder.java:108)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-03 16:15:50,420 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-03 16:15:50,420 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-03 16:15:50,420 WARN (HttpClientBeanHolder.java:114)- [HttpClientBeanHolder] Destruction of the end
+2023-07-03 16:17:10,235 INFO (StartupInfoLogger.java:55)- Starting MybatisWebApp using Java 1.8.0_271 on DESKTOP-R8L57D2 with PID 17956 (F:\java-web\springboot-mybatis\target\classes started by Admin in F:\java-web)
+2023-07-03 16:17:10,238 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2023-07-03 16:17:10,970 INFO (GenericScope.java:283)- BeanFactory id=c4ac7494-339c-311b-9b7c-a6601c5a07f0
+2023-07-03 16:17:11,259 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8887 (http)
+2023-07-03 16:17:11,268 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8887"]
+2023-07-03 16:17:11,268 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2023-07-03 16:17:11,269 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-07-03 16:17:11,426 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2023-07-03 16:17:11,426 INFO (ServletWebServerApplicationContext.java:292)- Root WebApplicationContext: initialization completed in 1150 ms
+2023-07-03 16:17:12,508 INFO (RpcClientFactory.java:80)- [RpcClientFactory] create a new rpc client of 71dbf005-03cc-4f52-b732-f1608b6b1132
+2023-07-03 16:17:12,549 INFO (Reflections.java:232)- Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
+2023-07-03 16:17:12,572 INFO (Reflections.java:232)- Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
+2023-07-03 16:17:12,586 INFO (Reflections.java:232)- Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+2023-07-03 16:17:12,682 INFO (Reflections.java:232)- Reflections took 93 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:17:12,693 INFO (Reflections.java:232)- Reflections took 11 ms to scan 1 urls, producing 1 keys and 5 values 
+2023-07-03 16:17:12,705 INFO (Reflections.java:232)- Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+2023-07-03 16:17:12,716 INFO (Reflections.java:232)- Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+2023-07-03 16:17:12,805 INFO (Reflections.java:232)- Reflections took 87 ms to scan 88 urls, producing 0 keys and 0 values 
+2023-07-03 16:17:12,807 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] RpcClient init label, labels = {module=naming, source=sdk}
+2023-07-03 16:17:12,808 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-07-03 16:17:12,808 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-07-03 16:17:12,809 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-07-03 16:17:12,810 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Try to connect to server on start up, server: {serverIp = '101.35.56.116', server main port = 8848}
+2023-07-03 16:17:13,947 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Success to connect to server [101.35.56.116:8848] on start up, connectionId = 1688372232694_139.226.59.80_1323
+2023-07-03 16:17:13,948 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Notify connected event to listeners.
+2023-07-03 16:17:13,948 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-07-03 16:17:13,949 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$656/57488372
+2023-07-03 16:17:13,996 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8887"]
+2023-07-03 16:17:14,004 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8887 (http) with context path ''
+2023-07-03 16:17:14,022 INFO (NacosServiceRegistry.java:75)- nacos registry, DEFAULT_GROUP springboot-mybatis 192.168.120.89:8887 register finished
+2023-07-03 16:17:14,300 INFO (StartupInfoLogger.java:61)- Started MybatisWebApp in 5.118 seconds (JVM running for 5.942)
+2023-07-03 16:17:14,552 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Receive server push request, request = NotifySubscriberRequest, requestId = 79
+2023-07-03 16:17:14,557 INFO (LoggerUtils.java:60)- [71dbf005-03cc-4f52-b732-f1608b6b1132] Ack server push request, request = NotifySubscriberRequest, requestId = 79
+2023-07-03 16:17:32,521 WARN (HttpClientBeanHolder.java:108)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-03 16:17:32,521 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-07-03 16:17:32,521 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-07-03 16:17:32,522 WARN (HttpClientBeanHolder.java:114)- [HttpClientBeanHolder] Destruction of the end
+2023-07-03 16:17:32,720 INFO (NacosServiceRegistry.java:94)- De-registering from Nacos Server now...
+2023-07-03 16:17:32,732 INFO (NacosServiceRegistry.java:114)- De-registration finished.
+2023-07-03 16:17:33,058 INFO (RpcClient.java:454)- Shutdown rpc client, set status to shutdown
+2023-07-03 16:17:33,058 INFO (RpcClient.java:456)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@32db4e3c[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-07-03 16:17:33,059 INFO (RpcClient.java:591)- Close current connection 1688372232694_139.226.59.80_1323
+2023-07-03 16:17:33,064 INFO (GrpcClient.java:85)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5e24f784[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 15]

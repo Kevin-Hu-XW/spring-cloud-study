@@ -1,0 +1,52 @@
+#spring:
+#  application:
+#    ##服务名称
+#    name: springboot-nacos
+#  cloud:
+#      nacos:
+#        ## 服务注册中心
+#        discovery:
+#          server-addr: 101.35.56.116:8848
+#        ## 服务配置中心
+#        config:
+#          server-addr: 101.35.56.116:8848
+#          file-extension: yaml
+#  datasource:
+#    url: jdbc:mysql://101.35.56.116:3306/saas?useSSL=true
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driverlocalhost
+####指定读取logback配置文件
+###logging:
+#  #config: log/logback.xml 会直接从项目目录下找log目录读取logback.xml文件
+#  #config: classpath:log/logback.xml 会从resource下找log目录读取logback.xml文件
+#  ##config: classpath:log/logback.xml
+#mybatis:
+#  mapperLocations: classpath:mapping/*.xml
+#server:
+#  port: 8082
+
+spring:
+  application:
+    name: springboot-nacos
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: test
+        group: kevin
+      discovery:
+        server-addr: localhost:8848
+        namespace: test
+        group: kevin
+    sentinel:
+      transport:
+        dashboard: localhost:9090
+        port: 8719
+  profiles:
+    active: test
+  main:
+    allow-circular-references: true
+
+## dataId: springboot-nacos-test.yaml  (name-namespace.file-extension)

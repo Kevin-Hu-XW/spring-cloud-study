@@ -1,0 +1,29 @@
+#spring:
+#  security:
+#    user:
+#      name: kevin
+#      password: 123
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23likH66HmKrQ7Ep2r
+            client-secret: 24ba1e6ff47080968f2f1ef24803cf8ef9d6d35a
+  #            redirectUri: http://localhost:8200/login/oauth2/code/github
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/security-demo
+    username: root
+    password: root
+# SQL日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/seata/account_seata/account_seata.iml" filepath="$PROJECT_DIR$/seata/account_seata/account_seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storage_seata.iml" filepath="$PROJECT_DIR$/storage_seata.iml" />
+    </modules>
+  </component>
+</project>
